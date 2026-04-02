@@ -77,9 +77,12 @@ Google Drive → My Drive → Torrent
 ---
 
 ## 📁 Project Structure
+
+```
 Torrent2Drive/
-├── Torrent2Drive.ipynb # Main Colab notebook
-└── README.md # This file
+├── Torrent2Drive.ipynb
+└── README.md
+```
 
 ---
 
@@ -98,18 +101,21 @@ You can customize these settings in the notebook:
 ---
 
 ## 📸 Preview
+
+```
 ⏳ Fetching metadata... done.
 
 ──────────────────────────────────────────────────────
 📦 Ubuntu-24.04-desktop-amd64.iso
-💾 Size : 5.74 GB (6,163,578,880 bytes)
+💾 Size   : 5.74 GB (6,163,578,880 bytes)
 🧩 Pieces : 5878 × 1024 KB
 📁 Saving : /content/drive/My Drive/Torrent
 ──────────────────────────────────────────────────────
 
 100.00% ↓ 0.0 kB/s ↑ 0.0 kB/s Peers: 0 ETA: 0:00:00 [Seeding]
-✅ Done in 0:15:32 → /content/drive/My Drive/Torrent
 
+✅ Done in 0:15:32 → /content/drive/My Drive/Torrent
+```
 
 ---
 
