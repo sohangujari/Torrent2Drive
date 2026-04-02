@@ -1,6 +1,6 @@
 # 🧲 Torrent2Drive
 
-> Download torrents directly to your Google Drive using Google Colab — no local storage needed.
+> Download torrents directly to your Google Drive using Google Colab - no local storage needed.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sohangujari/Torrent2Drive/blob/main/Torrent2Drive.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
@@ -20,18 +20,18 @@
 
 ## 📖 About
 
-**Torrent2Drive** is a lightweight Google Colab notebook that lets you download torrents (via **magnet links** or **`.torrent` files**) and save them directly to your **Google Drive**. No local bandwidth, no local storage — everything runs in the cloud.
+**Torrent2Drive** is a lightweight Google Colab notebook that lets you download torrents (via **magnet links** or **`.torrent` files**) and save them directly to your **Google Drive**. No local bandwidth, no local storage - everything runs in the cloud.
 
 ---
 
 ## ✨ Features
 
 - 🧲 **Magnet link & `.torrent` file** support
-- ☁️ **Direct to Google Drive** — no local disk needed
-- 📊 **Real-time progress** — speed, ETA, peers, state
-- ⚡ **Optimized session** — DHT, LSD, NAT-PMP, UPnP enabled
-- 🧩 **Smart piece prioritization** — first & last pieces downloaded first
-- 🔒 **Sparse storage mode** — efficient disk usage
+- ☁️ **Direct to Google Drive** - no local disk needed
+- 📊 **Real-time progress** - speed, ETA, peers, state
+- ⚡ **Optimized session** - DHT, LSD, NAT-PMP, UPnP enabled
+- 🧩 **Smart piece prioritization** - first & last pieces downloaded first
+- 🔒 **Sparse storage mode** - efficient disk usage
 - 🧹 **Graceful cleanup** on interruption
 
 ---
@@ -54,23 +54,23 @@ Click the badge below to open directly in Colab:
 
 ## 📋 Usage
 
-### Step 1 — Install dependency
+### Step 1 - Install dependency
 Run the first cell to install `libtorrent`:
 !pip install libtorrent
 
-### Step 2 — Run the downloader
+### Step 2 - Run the downloader
 Run the second cell. It will:
 1. Mount your Google Drive
 2. Ask for a **magnet link** or **`.torrent` file path**
 3. Start downloading with live progress
 
-### Step 3 — Enter your torrent source
+### Step 3 - Enter your torrent source
 Magnet link or .torrent file path: magnet:?xt=urn:btih:XXXX...
 
-### Step 4 — Watch the progress
+### Step 4 - Watch the progress
 45.23% ↓ 1234.5 kB/s ↑ 56.7 kB/s Peers: 42 ETA: 0:12:34 [Downloading]
 
-### Step 5 — Find your files
+### Step 5 - Find your files
 Downloaded files are saved to:
 Google Drive → My Drive → Torrent
 
@@ -119,7 +119,7 @@ You can customize these settings in the notebook:
 |---|---|
 | ⏱️ **Colab timeout** | Free tier disconnects after ~90 min of inactivity |
 | 💾 **Drive storage** | Limited by your Google Drive quota (15 GB free) |
-| 🔄 **Session reset** | Colab runtime resets — re-run cells after disconnect |
+| 🔄 **Session reset** | Colab runtime resets - re-run cells after disconnect |
 | 📦 **Large files** | Very large torrents may exceed Colab's temp storage |
 
 ---
@@ -128,17 +128,17 @@ You can customize these settings in the notebook:
 
 - 🖱️ **Keep the tab active** to prevent Colab from disconnecting
 - 📂 **Change save folder** by editing `DOWNLOAD_FOLDER`
-- 🛑 **Stop anytime** — use `Ctrl+C` or interrupt the cell; cleanup runs automatically
-- 🔗 **Use magnet links** — no need to upload `.torrent` files
+- 🛑 **Stop anytime** - use `Ctrl+C` or interrupt the cell; cleanup runs automatically
+- 🔗 **Use magnet links** - no need to upload `.torrent` files
 
 ---
 
 ## 🛠️ Tech Stack
 
-- [Google Colab](https://colab.research.google.com/) — Free cloud runtime
-- [libtorrent](https://libtorrent.org/) — High-performance BitTorrent library
-- [Python 3](https://python.org/) — Programming language
-- [Google Drive API](https://developers.google.com/drive) — Cloud storage
+- [Google Colab](https://colab.research.google.com/) - Free cloud runtime
+- [libtorrent](https://libtorrent.org/) - High-performance BitTorrent library
+- [Python 3](https://python.org/) - Programming language
+- [Google Drive API](https://developers.google.com/drive) - Cloud storage
 
 ---
 
